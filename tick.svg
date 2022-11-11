@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>green-check</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.76190476,12.3688078 L1.46329365,9.76464117 C0.768849206,9.24380784 0.682043651,8.20214117 1.20287698,7.50769673 C1.72371032,6.90005784 2.76537698,6.72644673 3.45982143,7.33408562 L5.45634921,8.89658562 L10.1438492,2.38616895 C10.6646825,1.69172451 11.6195437,1.5181134 12.4007937,2.03894673 C13.0952381,2.55978006 13.2688492,3.51464117 12.7480159,4.29589117 L7.10565476,12.1951967 C6.8452381,12.542419 6.49801587,12.8028356 6.0639881,12.8028356 C5.62996032,12.8028356 5.02232143,12.6292245 4.76190476,12.3688078 Z" id="path-1"></path>
+    </defs>
+    <g id="Main-Feature-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="overview" transform="translate(-734.000000, -1742.000000)">
+            <g id="Group-12" transform="translate(733.000000, 1572.000000)">
+                <g id="Group-6" transform="translate(1.000000, 0.000000)">
+                    <g id="Group-18-Copy" transform="translate(0.000000, 170.000000)">
+                        <g id="green-check">
+                            <circle id="Oval" fill="#FA3C66" cx="12.5" cy="12.5" r="12.5"></circle>
+                            <g id="icon/small-tick" transform="translate(5.555556, 5.555556)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="small-tick" fill="#7786A0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <g id="color/white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                    <rect id="white" x="0" y="0" width="13.8888889" height="13.8888889"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

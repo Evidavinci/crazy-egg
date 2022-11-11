@@ -1,0 +1,12 @@
+.trans{
+    margin: 1em auto;
+    width: 100px;
+    height: 100px;        
+    box-sizing: border-box;
+    padding: 1em;
+}
+.trans:hover{
+    transform: rotate(7200deg) /*translate(0px, 100px)*/ rotateX(360deg);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}

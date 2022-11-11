@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+body{
+    background-color: #959595;
+}
+.screen{
+    width: 100%;
+    background-color: white;
+    border: 1px solid;
+    padding: 0;
+}
+
+/* Header */
+header{
+    display: flex;
+    gap: 12em;
+    margin-top: 0;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow:0 0 5px 0;
+    z-index: 1;
+}
+
+.img1{
+    height: 6em;
+    width: 12em;
+}
+#nav{
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 3vw;
+}
+div a{
+    text-decoration: none;
+}
+.customers a{
+    color: black;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-button{
+    border: none;
+    width: 5em;
+    background-color: white;
+    font-size: 16px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+}
+.dropdown-content a:hover{
+    background-color: #b8b8b8;
+}
+.button{
+    background-color: #006ED0;
+    color: white;
+    border-radius: 3px;
+    padding: 0.5em;
+    border: none;
+    width: 12em;
+}
+/* Header ends */
+
+
+/* section begins */
+section{
+    padding: 0 1em;
+}
+
+/* section A */
+.A{
+    display: flex;
+    font-size: x-large;
+    overflow: hidden;
+    margin-right: -0.5em;
+}
+.img2{
+    margin-right: -8em;
+}
+div h1{
+    padding: 0.5em 2em 0.5em 0;
+}
+form input{
+    padding: 1em;
+    margin: 1.5em 0;
+}
+.text{
+    border: 1px solid #87C2D0;
+    border-radius: 4px 0 0 4px;
+}
+.submit{
+    background-color: #007DD8;
+    color: white;
+    border: 1px solid #87C2D0;
+    border-radius: 0 4px 4px 0;
+    margin-left: -1em;
+    
+}
+.bold{
+    font-weight: bold;
+}
+/* section A ends */
+
+/* section B */
+.B1{
+    text-align: center;
+    border-radius: 6px;
+    background-color: #E73083;
+    color: white;
+    margin: 6em 0;
+    padding: 2em 6em;
+}
+.B1a{
+    margin: 0 27%;
+}
+.img3{
+    height: 2em;
+    width: 2em;
+}
+h2{
+    text-align: center;
+    font-size: x-large;
+}
+.cust{
+    font-weight: bold;
+}
+.B2{
+    font-size: large;
+}
+.space{
+    line-height: 1.6em;
+}
+.B2a{
+    margin: 3em 0;
+    padding: 2em 8em;
+}
+.B2b{
+    display: flex;
+    gap: 1em;
+    border: 1px solid #b8b8b8;
+    padding: 2em;
+    border-radius:7px;
+    align-items: center;
+    margin: 3em 0;
+    font-size: 16px;
+}
+.B3{
+    display: flex;
+    gap: 2em;
+    padding: 0 8em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+.B3a{
+    margin: 0 2em;
+}
+li{
+    padding: 0.5em 0.5em;
+}
+.li{
+    margin: 2em 0;
+}
+ul{
+    list-style-image: url("./tick.svg");
+    padding: 0 0 0 2em;
+    list-style-position: ;
+}
+.img5{
+    height: 20em;
+    width: 100%;
+    padding: 0 0;
+    margin: 6em auto;
+}
+.img6{
+    height: 2em;
+    width: 6em;
+    margin: 1em 0;
+}
+/* section B ends */
+
+/* section C begins */
+.C{
+    background-color: #F6F7FB;
+    margin: 0 -1em 0;
+    padding: 1em;
+}
+.C1{
+    text-align: center;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom right, #009edd, #0060d8);
+    color: white;
+    margin: 6em 0;
+    padding: 3em 6em;
+}
+.text2{
+    background-color: initial;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px 0 0 4px;
+}
+.G ::placeholder{
+    color: white;
+}
+.submit2{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    margin-left: -1em;
+    border-radius: 0 4px 4px 0;
+}
+.img7{
+    height: 20em;
+    width: 100%;
+    padding: 0 0;
+    margin-top: 2em;
+    
+}
+/* section C ends */
+
+/* section D begins */
+.D2b{
+    display: flex;
+    border: 1px solid #b8b8b8;
+    gap: 1em;
+    padding: 2em;
+    border-radius:7px;
+    align-items: center;
+    margin: 3em 0;
+    font-size: large;
+}
+.D2c{
+    display: flex;
+    border: 1px solid;
+    gap: 1em;
+    border: 2px solid #E67F9D;
+    padding: 2em;
+    padding-right: 7em;
+    margin-bottom: 4em;
+    border-radius:7px;
+    align-items: center;
+    font-size: large;
+}
+/* section D ends */
+
+/* section E begins */
+.E1{
+    text-align: center;
+}
+.E2{
+    text-align: center;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom right, #b361c3, #7a46b5);    
+    color: white;
+    margin: 6em 0;
+    padding: 3em 6em;
+}
+.E{
+    background-color: #F6F7FB;
+    margin: 0 -1em 0;
+    padding: 1em;
+}
+.text3{
+    background-color: initial;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px 0 0 4px;
+}
+.img8{
+    height: 50%;
+    width: 50%;
+    padding-bottom: 2em;
+}
+.market{
+    color: #b8b8b8;
+    padding: 1em;
+    font-size: small;
+}
+.E1 p{
+    padding: 0 16em;
+}
+/* section E ends */
+/* section ends */
+
+/* media view change */
+@media ( max-width:960px){
+    #nav{
+        display: none;
+        position: absolute;
+        top: 6em;
+        left: 0;
+        background-color: white;
+        text-align: center;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        line-height: 20vh;
+    }
+    .menu{
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        color: black;
+        font-size: xx-large;
+    }
+    .img2{
+        display: none;
+    }
+    .A{
+        margin-right: 0;
+    }
+    form input{
+        display: block;
+        width: 100%;
+    }
+    .B1{
+        display: block;
+        padding: 1em;
+    }
+    .B1a{
+        margin: 0 0.5em;
+    }
+    div .B2{
+        padding: 0;
+        margin: 0;
+    }
+    div .B2b{
+        text-align: center;
+        display: block;
+    }
+    div .B2a{
+        display: block;
+        padding: 1em 0;
+    }
+    div .B3{
+        display: block;
+        padding: 0;
+    }
+    div.B3a{
+        margin: 0 0;
+    }
+    div .C1{
+        display: block;
+        padding: 3em 1em;
+        
+    }
+    div .D2b{
+        text-align: center;
+        display: block;
+    }
+    div .D2c{
+        text-align: center;
+        display: block;
+        padding: 1em;
+    }
+    .text{
+        border-radius: 4px;
+    }
+    .text2{
+        border-radius: 4px;
+    }
+    .text3{
+        border-radius: 4px;
+    }
+    .submit{
+        margin-left: 0;
+        border-radius: 4px;
+    }
+    .submit2{
+    margin-left: 0;
+    border-radius: 4px;
+    
+    }
+    div .E2{
+        padding: 3em 1em;
+    }
+    .E1 p{
+        padding: 0 1em;
+    }
+    .img5{
+        height: 100%;
+        width: 100%;
+    }
+    .img7{
+        padding: 0 1em 3em 1em;
+        height: 100%;
+        width: 100%;
+    }
+    .img8{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media ( min-width:960px){
+    .menu{
+        display: none;
+    }
+}
+/* Media view change ends */
